@@ -60,7 +60,7 @@ Presentation
 
     Image {
         id: background2
-        source: "2-alci.png"
+        source: "2-axyl.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -71,7 +71,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "ALCI"
+        text: "Axyl OS"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
