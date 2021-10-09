@@ -46,7 +46,6 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Welcome to"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -71,7 +70,6 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Axyl OS"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
