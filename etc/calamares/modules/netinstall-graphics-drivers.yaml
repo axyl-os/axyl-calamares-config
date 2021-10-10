@@ -1,19 +1,21 @@
-- name: "Graphics Drivers for Intel/AMD/VM"
-  description: "AMD/Intel/VM Graphics Drivers for your system."
+- name: "Intel & AMD Graphics Drivers"
+  description: "Installs Drivers for Intel & AMD"
   hidden: false
   selected: false
   critical: false
+  expanded: true
   packages:
     - xf86-video-amdgpu
     - xf86-video-intel
     - xf86-video-fbdev
     - xf86-video-vesa
     - xf86-video-ati
-- name: "Graphics Drivers for Nvidia"
-  description: "Nvidia Graphics Drivers"
+- name: "Nvidia Graphics Drivers"
+  description: "Installs Drivers for Nvidia"
   hidden: false
   selected: false
   critical: false
+  expanded: true
   packages:
     - xf86-video-nouveau
     - nvidia
