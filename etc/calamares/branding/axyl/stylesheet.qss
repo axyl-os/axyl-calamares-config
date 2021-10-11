@@ -33,7 +33,7 @@ The examples are not exhaustive.
 /* ########## MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
-  color: #82dbf4;
+  color: #FFFFFF;
   background-color: #0F131F;
 }
 
@@ -56,11 +56,13 @@ The examples are not exhaustive.
 
 QWidget {
 	font: 16px;
+        color: #82dbf4;
 }
 
 QTextEdit, QListView {
 }
 QDialogButtonBox {
+  background-color: #548FAB;
 }
 QAbstractSpinBox {
 }
@@ -85,6 +87,7 @@ QPushButton {
 }
 
 QDialogButtonBox {
+        background-color: #548FAB;
 	dialogbuttonbox-buttons-have-icons: 0;
 }
 
@@ -92,14 +95,18 @@ QDialogButtonBox {
 /* ########## QLIST VIEW ########## */
 
 QListView {
-		font: 16px;
+  background-color: #0F131F;
+  border: 0px;
+  font: 16px;
 }
 
 
 /* ########## QLINE EDIT ########## */
 
 QLineEdit#LE_TestKeyboard {
-	font: 16px;
+  background-color: #595D78;
+  color: #FFFFFF;
+  font: 16px;
 }
 
 QLineEdit#m_passphraseLineEdit, QLineEdit#vgName,
@@ -114,6 +121,7 @@ QLineEdit#textBoxUserVerifiedPassword, QLineEdit#textBoxVerifiedRootPassword {
 QLineEdit#textBoxFullName, QLineEdit#textBoxLoginName, QLineEdit#textBoxHostName,
 QLineEdit#textBoxUserPassword, QLineEdit#textBoxRootPassword {
 	font: 16px;
+        background-color: #5b99aa;
 }
 
 #textBoxFullName, #textBoxLoginName, #textBoxHostName, #textBoxUserPassword,
@@ -213,7 +221,8 @@ QLineEdit#textBoxUserPassword, QLineEdit#textBoxRootPassword {
 /* ########## COMBO BOX ########## */
 
 QComboBox {
-	font: 16px;
+  font: 16px;
+  background-color: #0F131F;
 }
 
 #mountPointComboBox::drop-down {
@@ -223,7 +232,7 @@ QComboBox {
 /* ########## SPIN BOX ########## */
 
 QSpinBox {
-	font: 16px;
+  font: 16px;
 }
 
 QLineEdit {
@@ -233,12 +242,15 @@ QLineEdit {
 /* ########## TREE VIEW ########## */
 
 QTreeView {
-	font: 16px;
-	show-decoration-selected: 0;
+  background-color: #0F131F;
+  font: 16px;
+  show-decoration-selected: 1;
 }
 
 QTreeView::item {
-	padding: 2px;
+  color: #82dbf4;
+  background-color: #0F131F;
+  padding: 2px;
 }
 
 QTreeView::branch:has-siblings:!adjoins-item {
@@ -256,7 +268,16 @@ QTreeView::branch:open:has-children:has-siblings  {
 
 /* ########## CHECK BOX ########## */
 
+QGroupBox {
+  color: #FFFFFF;
+  background-color: #FFFFFF;    
+}
+
 QCheckBox {
+  spacing: 5px;
+  background-color: #FFFFFF;
+}
+QCheckBox::indicator {
 }
 QCheckBox::indicator:unchecked {
 }
@@ -269,5 +290,9 @@ QItemSelectionModel::Select {
 
 QHeaderView::section {
   font : 16px;
+  color: #FFFFFF;
+  background-color: #548FAB;
 }
+
+/* ########## Partition Page ########## */
 
