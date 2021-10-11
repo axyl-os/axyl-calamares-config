@@ -30,9 +30,7 @@
   packages:
     - discord
     - signal-desktop
-    - teams
     - telegram-desktop-bin
-    - zoom
 - name: "Graphics Software"
   hidden: false
   selected: false
