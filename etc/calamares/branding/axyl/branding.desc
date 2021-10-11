@@ -8,7 +8,7 @@ sidebar: widget
 navigation: widget
 
 strings:
-    productName:         Axyl OS 
+    productName:         Axyl 
     shortProductName:    Axyl
     version:             2021.01.1
     shortVersion:        2021.01.1
@@ -22,10 +22,10 @@ images:
     productWelcome:      "2-axyl.png"
 
 style:
-   sidebarBackground:    "#292F34"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+   sidebarBackground:    "#0F131F"
+   sidebarText:          "#82dbf4"
+   sidebarTextSelect:    "#FFFFFF"
+   sidebarTextHighlight: "#F7A11D"
 
 slideshow:               "show.qml"
 slideshowAPI: 2
