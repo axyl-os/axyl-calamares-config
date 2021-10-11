@@ -49,3 +49,25 @@
   expanded: false
   packages:
     - minecraft-launcher
+- name: "Office"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - libreoffice-fresh
+    - libreoffice-still
+    - libreoffice-fresh-$LOCALE
+    - libreoffice-still-$LOCALE
+- name: "Media"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - vlc
+    - ncmpcpp
+    - mpd
+    - mpc
+    - mplayer
+    - cava
