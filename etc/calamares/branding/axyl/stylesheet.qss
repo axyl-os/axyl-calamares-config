@@ -27,7 +27,7 @@ The examples are not exhaustive.
 /* ########## Global Font ########## */
 
 *{
-  font: 12px "Source Code Pro";
+  font: 16px "Source Code Pro";
 }
 
 /* ########## MAIN APPLICATION WINDOW ########## */
@@ -68,7 +68,7 @@ QListWidget::item:alternate {
 
 
 #debugButton {
-	font: bold 10px;
+	font: bold 8px;
 	color: #FFFFFF;
 }
 
