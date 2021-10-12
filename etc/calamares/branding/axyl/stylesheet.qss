@@ -24,33 +24,25 @@ The examples are not exhaustive.
 
 */
 
-/* ##########       Global Fonts      ########## */
+/* ########## Global Font ########## */
 
 *{
-    font: 16px "Source Code Pro";
+  font: 12px "Source Code Pro";
 }
 
 /* ########## MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
-  color: #82dbf4;
-  background-color: #0F131F;
 }
-
 #mainText{
-  color: #82dbf4;
-  background-color: #0F131F;
 }
-
 #sidebarApp {
-
 }
-
 #logoApp {
 }
 
 #sidebarMenuApp {
-	padding: 5px;
+	padding: 3px;
 	background-color: #0F131F;
 }
 
@@ -70,7 +62,7 @@ QListWidget::item:alternate {
 
 #debugButton {
 	font: bold 10px;
-	color: #82dbf4;
+	color: #FFFFFF;
 }
 
 
@@ -80,8 +72,6 @@ QListWidget::item:alternate {
 
 QPushButton {
     font : 16px;
-    color: #FFFFFF;
-    background-color: #548FAB;
 }
 
 QDialogButtonBox {
@@ -270,4 +260,3 @@ QItemSelectionModel::Select {
 QHeaderView::section {
   font : 16px;
 }
-
