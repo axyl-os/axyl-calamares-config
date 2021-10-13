@@ -1,5 +1,5 @@
-- name: "Intel & AMD Graphics Drivers"
-  description: "Installs Drivers for Intel & AMD"
+- name: "Intel & AMD Drivers"
+  description: "Installs Drivers for Intel & AMD."
   hidden: false
   selected: false
   critical: false
@@ -10,8 +10,8 @@
     - xf86-video-fbdev
     - xf86-video-vesa
     - xf86-video-ati
-- name: "Nvidia Graphics Drivers"
-  description: "Installs Drivers for Nvidia"
+- name: "Nvidia Drivers"
+  description: "Installs Drivers for Nvidia."
   hidden: false
   selected: false
   critical: false
@@ -21,8 +21,8 @@
     - nvidia
     - nvidia-utils
     - nvidia-settings
-- name: "Communications Software"
-  description: "Installs Video/Chat Software"
+- name: "Communications"
+  description: "Installs Video/Chat Software."
   hidden: false
   selected: false
   critical: false
@@ -31,16 +31,19 @@
     - discord
     - signal-desktop
     - telegram-desktop-bin
-- name: "Graphics Software"
+- name: "Editing"
+  description: "Popular Free Video/Photo Editing Software."
   hidden: false
   selected: false
   critical: false
   expanded: false
   packages:
     - blender
+    - kdenlive
     - gimp
     - inkscape
 - name: "Games"
+  description: "Play a Game every once in a while."
   hidden: false
   selected: false
   critical: false
@@ -48,6 +51,7 @@
   packages:
     - minecraft-launcher
 - name: "Office"
+  description: "Document Reader/Writer."
   hidden: false
   selected: false
   critical: false
@@ -58,6 +62,7 @@
     - libreoffice-fresh-$LOCALE
     - libreoffice-still-$LOCALE
 - name: "Media"
+  description: "Music & Video Player/Visualizer."
   hidden: false
   selected: false
   critical: false
