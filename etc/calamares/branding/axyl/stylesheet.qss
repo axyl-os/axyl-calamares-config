@@ -27,7 +27,7 @@ The examples are not exhaustive.
 /* ########## Global Font ########## */
 
 *{
-  font: 16px "Source Code Pro";
+  font: 16px;
 }
 
 /* ########## MAIN APPLICATION WINDOW ########## */
