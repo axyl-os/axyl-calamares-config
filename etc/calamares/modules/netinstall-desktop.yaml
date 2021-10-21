@@ -1,0 +1,24 @@
+- name: "Desktop BSPWM (Installed by default)"
+  description: "A tiling window manager that represents a full Binary Tree."
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - axyl-bspwm
+- name: "Desktop DWM"
+  description: "Dynamic Window Manager by Suckless. Credits To: siduck76"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - axyl-dwm
+- name: "Desktop Qtile"
+  description: "Hackable tiling window manager written in Python."
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - axyl-qtile
