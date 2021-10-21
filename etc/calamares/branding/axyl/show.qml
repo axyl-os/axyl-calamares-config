@@ -43,13 +43,6 @@ Presentation
         anchors.fill: parent
     	}
 
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-    	}
     }
 
     Slide {
@@ -59,20 +52,44 @@ Presentation
 
     Image {
         id: background2
-        source: "2-axyl.png"
+        source: "2-enjoy.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+    }
 
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
+    Slide {
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: background3
+        source: "3-star.png"
+        width: parent.width; height: parent.height
+        horizontalAlignment: Image.AlignCenter
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
+    	}
+    }
+
+    Slide {
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: background4
+        source: "4-thanks.png"
+        width: parent.width; height: parent.height
+        horizontalAlignment: Image.AlignCenter
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
     	}
     }
 

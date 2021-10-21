@@ -19,7 +19,7 @@ strings:
 images:
     productIcon:         "axyl-logo.png"
     productLogo:         "axyl-logo.png"
-    productWelcome:      "axyl-logo.png"
+    productWelcome:      "1-welcometo.png"
 
 style:
    sidebarBackground:    "#0F131F"
