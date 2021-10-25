@@ -1,26 +1,3 @@
-- name: "Intel & AMD Drivers"
-  description: "Installs Drivers for Intel & AMD."
-  hidden: false
-  selected: false
-  critical: false
-  expanded: false
-  packages:
-    - xf86-video-amdgpu
-    - xf86-video-intel
-    - xf86-video-fbdev
-    - xf86-video-vesa
-    - xf86-video-ati
-- name: "Nvidia Drivers"
-  description: "Installs Drivers for Nvidia."
-  hidden: false
-  selected: false
-  critical: false
-  expanded: false
-  packages:
-    - xf86-video-nouveau
-    - nvidia
-    - nvidia-utils
-    - nvidia-settings
 - name: "Communications"
   description: "Installs Video/Chat Software."
   hidden: false
