@@ -3,7 +3,7 @@
   hidden: false
   selected: false
   critical: false
-  expanded: false
+  expanded: true
   packages:
     - discord
     - signal-desktop
@@ -13,7 +13,7 @@
   hidden: false
   selected: false
   critical: false
-  expanded: false
+  expanded: true
   packages:
     - blender
     - kdenlive
@@ -24,7 +24,7 @@
   hidden: false
   selected: false
   critical: false
-  expanded: false
+  expanded: true
   packages:
     - minecraft-launcher
 - name: "Office"
@@ -32,7 +32,7 @@
   hidden: false
   selected: false
   critical: false
-  expanded: false
+  expanded: true
   packages:
     - libreoffice-fresh
     - libreoffice-still
@@ -43,7 +43,7 @@
   hidden: false
   selected: false
   critical: false
-  expanded: false
+  expanded: true
   packages:
     - vlc
     - ncmpcpp
