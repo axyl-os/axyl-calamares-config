@@ -25,7 +25,7 @@ style:
    sidebarBackground:    "#353945"
    sidebarText:          "#EFF0F1"
    sidebarTextSelect:    "#FFFFFF"
-   sidebarTextHighlight: "#5294E2"
+   sidebarTextHighlight: "#A57DDD"
 
 slideshow:               "show.qml"
 slideshowAPI: 2
