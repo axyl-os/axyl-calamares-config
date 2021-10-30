@@ -22,10 +22,10 @@ images:
     productWelcome:      "1-welcometo.png"
 
 style:
-   sidebarBackground:    "#0F131F"
-   sidebarText:          "#82dbf4"
+   sidebarBackground:    "#353945"
+   sidebarText:          "#EFF0F1"
    sidebarTextSelect:    "#FFFFFF"
-   sidebarTextHighlight: "#F7A11D"
+   sidebarTextHighlight: "#5294E2"
 
 slideshow:               "show.qml"
 slideshowAPI: 2
