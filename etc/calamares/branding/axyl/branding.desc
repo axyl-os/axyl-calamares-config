@@ -14,7 +14,7 @@ strings:
     shortVersion:        2021.01.1
     versionedName:       Axyl
     shortVersionedName:  Axyl
-    bootloaderEntryName: Generic
+    bootloaderEntryName: Axyl
 
 images:
     productIcon:         "axyl-logo.png"
@@ -22,7 +22,7 @@ images:
     productWelcome:      "1-welcometo.png"
 
 style:
-   sidebarBackground:    "#353945"
+   sidebarBackground:    "#282a36"
    sidebarText:          "#EFF0F1"
    sidebarTextSelect:    "#FFFFFF"
    sidebarTextHighlight: "#A57DDD"
