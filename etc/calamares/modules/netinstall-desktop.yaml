@@ -38,3 +38,11 @@
   expanded: false
   packages:
     - axyl-spectrwm
+- name: "Desktop: LeftWM"
+  description: "A tiling window manager written in rust for stability and performance."
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - axyl-leftwm
