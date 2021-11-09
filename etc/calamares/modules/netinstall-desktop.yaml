@@ -1,4 +1,12 @@
-- name: "Desktop: BSPWM (Installed by default)"
+- name: "Desktop: i3wm (Installed by default)"
+  description: "A tiling window manager designed for X11, inspired by wmii and written in C."
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - axyl-i3wm
+- name: "Desktop: BSPWM"
   description: "A tiling window manager that represents a full Binary Tree."
   hidden: false
   selected: false
@@ -46,11 +54,3 @@
   expanded: false
   packages:
     - axyl-leftwm
-- name: "Desktop: i3wm"
-  description: "A tiling window manager designed for X11, inspired by wmii and written in C."
-  hidden: false
-  selected: false
-  critical: false
-  expanded: false
-  packages:
-    - axyl-i3wm
