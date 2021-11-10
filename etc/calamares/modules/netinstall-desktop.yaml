@@ -1,7 +1,7 @@
 - name: "Desktop: i3wm (Installed by default)"
   description: "A tiling window manager designed for X11, inspired by wmii and written in C."
   hidden: false
-  selected: false
+  selected: true
   critical: false
   expanded: false
   packages:
