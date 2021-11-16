@@ -22,7 +22,7 @@ images:
     productWelcome:      "languages.png"
 
 style:
-   sidebarBackground:    "#2E3440"
+   sidebarBackground:    "#282a36"
    sidebarText:          "#FFFFFF"
    sidebarTextSelect:    "#FFFFFF"
    sidebarTextHighlight: "#81A1C1"
